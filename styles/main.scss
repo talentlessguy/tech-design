@@ -1,0 +1,99 @@
+body {
+    margin: 0; padding: 0;
+    font-family: 'Source Sans Pro'
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    scroll-behavior: smooth
+}
+
+.Index {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+footer {
+    padding: 3em;
+    text-align: center;
+    font-size: 1.2em
+}
+
+.Nav {
+    width: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: white;
+    border-bottom: 0.2em solid black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    flex-direction: row;
+    a {
+        font-size: 1.5em;
+        display: block;
+        font-weight: 600;
+        padding: 0.4em 0.8em;
+        text-align: center;
+        &:hover {
+            color: #2c3e50
+        }
+    }
+    #checkbox {
+        display: none;
+    }
+    label {
+        display: none;
+        font-size: 1.8em;
+        margin-left: 0.2em
+    }
+}
+
+.Error {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    * {
+        text-align: center;
+        color: black
+    }
+    a {
+        text-decoration: underline;
+        font-size: 1.2em
+    }
+    h1 {
+        font-size: calc(100% + 4vw)
+    }
+    h3 {
+        font-size: calc(100% + 2vw)
+    }
+}
+
+@media (max-width: 838px) {
+    .Nav {
+        flex-direction: column;
+        label {
+            display: block;
+        }
+        a {
+            display: none
+        }
+        #checkbox:checked + label ~ a {
+            display: block
+        }
+    }
+    #Header h1 {
+        display: block;
+        &:after {
+            display: none
+        }
+    }
+}

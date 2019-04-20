@@ -1,0 +1,28 @@
+{
+  "name": "tech-design",
+  "version": "1.0.0",
+  "description": "Tech & Media Protvino website",
+  "main": "server.js",
+  "dependencies": {
+    "next": "^8.0.4",
+    "next-images": "^1.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.4.9",
+    "next-compose-plugins": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14",
+    "webpack": "^4.30.0"
+  },
+  "scripts": {
+    "start": "next start -p 80",
+    "build": "next build",
+    "dev": "next -p 80"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

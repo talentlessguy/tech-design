@@ -1,0 +1,15 @@
+#about, #about::after {
+background-image: url();
+}
+#study, #study::after {
+	background-image: url();
+}
+#join, #join::after {
+	background-image: url();
+}
+body {
+background:  #ED683F;
+}
+h1 {
+color: white;
+}
