@@ -4,18 +4,18 @@
   "description": "Tech & Media Protvino website",
   "main": "server.js",
   "dependencies": {
-    "next": "^8.0.4",
+    "next": "^8.1.0",
     "next-images": "^1.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "autoprefixer": "^9.4.9",
-    "next-compose-plugins": "^2.1.1",
-    "node-sass": "^4.11.0",
-    "postcss": "^7.0.14",
-    "webpack": "^4.30.0"
+    "autoprefixer": "^9.5.1",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.16",
+    "webpack": "^4.32.0"
   },
   "scripts": {
     "start": "next start -p 80",
