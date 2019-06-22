@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["techmedia-protvino.now.sh"],
+  "name": "techmedia",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
+}

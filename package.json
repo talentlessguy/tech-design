@@ -5,22 +5,21 @@
   "main": "server.js",
   "dependencies": {
     "next": "^8.1.0",
-    "next-images": "^1.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "autoprefixer": "^9.5.1",
-    "next-compose-plugins": "^2.2.0",
+    "autoprefixer": "^9.6.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "next-optimized-images": "^2.5.1",
     "node-sass": "^4.12.0",
-    "postcss": "^7.0.16",
+    "postcss": "^7.0.17",
     "prettier": "^1.18.2"
   },
   "scripts": {
-    "start": "next start -p 80",
-    "build": "next build",
-    "dev": "next -p 80"
+    "dev": "next -p 80",
+    "now-build": "next build"
   },
   "author": "",
   "license": "ISC",
