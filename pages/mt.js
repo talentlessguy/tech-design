@@ -28,8 +28,4 @@ const props = {
     `
 }
 
-export default () => (
-  <Page id="media" title={props.title} about={props.about} images={images}>
-    {}
-  </Page>
-)
+export default () => <Page id="media" title={props.title} about={props.about} images={images} />

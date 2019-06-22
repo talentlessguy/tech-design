@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["techmedia-protvino.now.sh"],
+  "alias": "techmedia-protvino.now.sh",
   "name": "techmedia",
   "builds": [
     {
