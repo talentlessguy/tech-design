@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Nav from '../components/Nav'
 import Section from '../components/Section'
+import SEO from '../components/SEO'
 import '../styles/main.scss'
 import '../styles/td.scss'
 import '../styles/tk.scss'
@@ -10,6 +11,7 @@ import '../styles/mt.scss'
 
 export default () => (
   <div>
+    <SEO />
     <Nav
       anchor={true}
       links={[
@@ -31,7 +33,6 @@ export default () => (
         }
       ]}
     />
-
     <main className="Index">
       <Section id="td" title="Технический Дизайн" />
       <Section id="tk" title="Техническое Констр." />
