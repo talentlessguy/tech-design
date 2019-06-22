@@ -1,8 +1,13 @@
-#about, #about::after {
-  background-image: url(http://www.toddkumpf.com/images/cute_robot/physical_rendering_engine_Robot_09_A_comped.jpg); }
+#about,
+#about::after {
+  background-image: url(http://www.toddkumpf.com/images/cute_robot/physical_rendering_engine_Robot_09_A_comped.jpg);
+}
 
-#study, #study::after {
-  background-image: url(https://i.gifer.com/7IHr.gif); }
+#study,
+#study::after {
+  background-image: url(https://i.gifer.com/7IHr.gif);
+}
 
 h1 {
-  color: white; }
+  color: white;
+}

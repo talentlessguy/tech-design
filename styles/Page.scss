@@ -1,67 +1,69 @@
 .Page {
-    overflow-x: hidden;
-    section {
-        display: flex;
-        flex-direction: column
+  overflow-x: hidden;
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  #About {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    width: auto;
+    padding: 7em 2em;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8);
     }
-    #About, #Join {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: darken;
-        background-color: rgba(0,0,0,0.5);
-        transition: 0.5s;
-        width: auto;
-        padding: 5em 2em;
-        &:hover {
-            background-color: rgba(0,0,0,0.8)
-        }
-        p {
-            font-size: calc(100% + 1.5vw);
-            font-weight: 600
-        }
-        h2 {
-            font-size: calc(100% + 4vw);
-            font-weight: 800
-        }
-        * {
-            color: white;
-            margin: 0.2em 0
-        }
+    p {
+      font-size: calc(100% + 1.5vw);
+      font-weight: 600;
     }
-    #Header {
-        width: auto;
-        padding: 5vw;
-        display: flex;
-        justify-content: center;
-        h1 {
-            position: relative;
-            
-            text-align: center;
-            font-size: calc(100% + 4vw);
-        }
+    h2 {
+      font-size: calc(100% + 5vw);
+      font-weight: 700;
     }
+    * {
+      color: white;
+      margin: 0.2em 0;
+    }
+  }
+  #Header {
+    width: auto;
+    padding: 5vw;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    h1 {
+      text-align: center;
+      position: relative;
+      font-size: calc(100% + 4.5vw);
+    }
+  }
 
-    #Works {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        h2 {
-            text-align: center;
-            font-size: calc(100% + 3vw)
-        }
-        & div {
-            display: flex;
-            flex-wrap: wrap;
-            figure {
-                flex: 1 1 400px
-            }
-            img {
-                object-fit: contain;
-                width: 100%;
-                user-select: none;
-            }
-        }
+  #Works {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+      text-align: center;
+      font-size: calc(100% + 3vw);
     }
+    & div {
+      display: flex;
+      flex-wrap: wrap;
+      figure {
+        flex: 1 1 400px;
+      }
+      img {
+        cursor: pointer;
+        object-fit: contain;
+        width: 100%;
+        user-select: none;
+      }
+    }
+  }
 }

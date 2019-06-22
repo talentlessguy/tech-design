@@ -1,23 +1,19 @@
 #techk {
-    #Header {
-        h1 {
-            color: #ffffff;
-        }
-        background-image: url('../static/tk/bg.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+  #Header {
+    h1 {
+      color: #ffffff;
     }
-    #About {
-        background-image: url('../static/tk/pravoslavie.jpg')
-    }
-    
-    #Join {
-        background-image: url('../static/tk/cars.jpg')
-    }
+    background-image: url('../static/tk/bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #About {
+    background-image: url('../static/tk/pravoslavie.jpg');
+  }
 }
 
 #tk {
-    background-image: url('../static/bgs/tk.svg');
-    background-color: rgba(29, 27, 131, 0.4);
+  background-image: url('../static/bgs/tk.svg');
+  background-color: rgba(29, 27, 131, 0.4);
 }

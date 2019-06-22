@@ -1,24 +1,24 @@
 .Section {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: darken;
-    background-size: 56em;
-    padding: 30vh 0;
-    width: 100%;
-    text-align: center;
-    flex: 10;
-    * {
-        color: white;
-        text-shadow: 0.05em 0.2em 1em #222121;
-        font-size: calc(100% + 5vw);
-        transition: 0.8s
-    }
-    a {
-        transform: translateX(0);
-        font-size: 4em;
-    }
-    a:hover {
-        cursor: pointer;
-        transform: translateX(0.6em)
-    }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: 56em;
+  padding: 30vh 0;
+  width: 100%;
+  text-align: center;
+  flex: 10;
+  * {
+    color: white;
+    text-shadow: 0.05em 0.2em 1em #222121;
+    font-size: calc(100% + 5vw);
+    transition: 0.8s;
+  }
+  a {
+    transform: translateX(0);
+    font-size: 4em;
+  }
+  a:hover {
+    cursor: pointer;
+    transform: translateX(0.6em);
+  }
 }

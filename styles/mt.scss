@@ -1,16 +1,21 @@
 $bg: rgba(30, 63, 22, 0.4);
 
 #media {
-    #About {
-        background-image: url('../static/td/robots.jpg')
+  #About {
+    background-image: url('../static/mt/4.jpg');
+  }
+  #Header h1 {
+    transition: 0.8s;
+    cursor: pointer;
+    &:hover {
+      letter-spacing: 0.1em;
+      transform: skewX(-15deg);
+      text-shadow: 0.05em 0.05em red;
     }
-    
-    #Join {
-        background-image: url('../static/td/bird.svg')
-    }
+  }
 }
 
 #mt {
-    background-image: url('../static/bgs/mt.svg');
-    background-color: $bg;
+  background-image: url('../static/bgs/mt.svg');
+  background-color: $bg;
 }

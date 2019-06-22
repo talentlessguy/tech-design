@@ -1,26 +1,26 @@
 #techd {
-    #Header {
-        h1 {
-            color: #782bc0;
-        }
-        h1:after {
-            content: 'ТехническийДизайн';
-            position: absolute;
-            right: 3em;
-            bottom: -0.1em;
-            color: #ff000080;
-        }
+  #Header {
+    h1 {
+      color: #782bc0;
     }
-    #About {
-        background-image: url('../static/td/robots.jpg')
+    h1:after {
+      content: 'ТехническийДизайн';
+      position: absolute;
+      right: 3em;
+      bottom: -0.1em;
+      color: #ff000080;
     }
-    
-    #Join {
-        background-image: url('../static/td/bird.svg')
-    }
+  }
+  #About {
+    background-image: url('../static/td/robots.jpg');
+  }
+
+  #Join {
+    background-image: url('../static/td/bird.svg');
+  }
 }
 
 #td {
-    background-image: url('../static/bgs/td.svg');
-    background-color: rgba(30, 63, 22, 0.4);
+  background-image: url('../static/bgs/td.svg');
+  background-color: rgba(30, 63, 22, 0.4);
 }

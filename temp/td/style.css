@@ -1,10 +1,15 @@
-#about, #about::afte {
-  background-image: url(../img/BIRD.jpg); }
+#about,
+#about::afte {
+  background-image: url(../img/BIRD.jpg);
+}
 
-#join, #join::after {
-  background-image: url(../img/cherep.jpg); }
+#join,
+#join::after {
+  background-image: url(../img/cherep.jpg);
+}
 
 body {
-  background: url("../img/bg.svg");
+  background: url('../img/bg.svg');
   background-size: 80%;
-  background-repeat: repeat-y; }
+  background-repeat: repeat-y;
+}
