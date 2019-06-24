@@ -62,7 +62,7 @@ const Page = props => {
         ]}
       />
       <main className="Page" id={props.id}>
-        <section id="Header">{props.children || <h1>{props.title}</h1>}</section>
+        <section id="Header">{props.children || <h1>{props.title} ⬇⬇⬇</h1>}</section>
 
         <section id="About">
           <h2>О кружке</h2>

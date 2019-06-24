@@ -1,8 +1,9 @@
 import React from 'react'
-import Link from 'next/link'
+import Header from '../components/Header'
 import Nav from '../components/Nav'
 import Section from '../components/Section'
 import SEO from '../components/SEO'
+import Link from 'next/link'
 import '../styles/main.scss'
 import '../styles/td.scss'
 import '../styles/tk.scss'
@@ -33,23 +34,18 @@ export default () => (
         }
       ]}
     />
+    <Header />
     <main className="Index">
       <Section id="td" title="Технический Дизайн" />
-      <Section id="tk" title="Техническое Констр." />
+      <Section id="tk" title="Техническое Конструирование" />
       <Section id="rt" title="Робототехника" />
       <Section id="mt" title="Медиатворчество" />
-    </main>
-    <footer>
-      <div>Адрес: РФ, Московская область, г. Протвино, ул. Гагарина, д. 2А.</div>
-      <Link href="https://uslugi.mosreg.ru/services/20712">
-        <a>Запись на секцию</a>
-      </Link>
-      <div>
-        дизайн и код сайта &rarr;&nbsp;
-        <Link href="https://github.com/talentlessguy">
-          <a>ᐺ ! ᖇ ✝ ᒪ</a>
+      <footer>
+        Автор сайта →&nbsp;
+        <Link href="https://t.me/talentless_guy">
+          <a>v1rtl</a>
         </Link>
-      </div>
-    </footer>
+      </footer>
+    </main>
   </div>
 )

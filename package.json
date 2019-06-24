@@ -4,22 +4,24 @@
   "description": "Tech & Media Protvino website",
   "main": "server.js",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
     "next": "^8.1.0",
+    "next-optimized-images": "^2.5.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^9.6.0",
-    "imagemin-mozjpeg": "^8.0.0",
-    "next-optimized-images": "^2.5.1",
+    "cross-env": "^5.2.0",
     "node-sass": "^4.12.0",
     "postcss": "^7.0.17",
     "prettier": "^1.18.2"
   },
   "scripts": {
     "dev": "next -p 80",
-    "now-build": "next build"
+    "now-build": "next build",
+    "start": "cross-env NODE_ENV=production next start"
   },
   "author": "",
   "license": "ISC",
