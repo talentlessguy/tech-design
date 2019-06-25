@@ -26,8 +26,8 @@ header {
   padding: 2.5em;
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: 1fr;
     grid-column-gap: 0.5vw;
     div {
       margin: 0.8em;
