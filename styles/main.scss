@@ -59,6 +59,12 @@ header {
   }
 }
 
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 footer {
   padding: 2em;
   align-items: center;
