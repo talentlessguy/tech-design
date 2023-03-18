@@ -9,7 +9,7 @@ const Nav = props => (
     {props.links.map((link, i) =>
       props.anchor ? (
         <Link key={i} href={link.href}>
-          <a>{link.name}</a>
+          {link.name}
         </Link>
       ) : (
         <AnchorLink key={i} href={link.href} title={link.name} />

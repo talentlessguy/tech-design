@@ -17,15 +17,11 @@ const Header = () => (
       </div>
       <div>
         <h1>Запись</h1>
-        <Link href="https://uslugi.mosreg.ru/services/20712">
-          <a>Через Госуслуги</a>
-        </Link>
+        <Link href="https://uslugi.mosreg.ru/services/20712">Через Госуслуги</Link>
       </div>
       <div>
         <h1>Контакты</h1>
-        <Link href="mailto:allashukova@yandex.ru">
-          <a>e-mail педагога</a>
-        </Link>
+        <Link href="mailto:allashukova@yandex.ru">e-mail педагога</Link>
       </div>
     </div>
   </header>

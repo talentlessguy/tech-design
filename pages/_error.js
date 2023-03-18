@@ -4,9 +4,7 @@ import Link from 'next/link'
 const Error = ({ code }) => (
   <main className="Error">
     <h1>Ой! Ошибка {code}</h1>
-    <Link href="/">
-      <a>Назад</a>
-    </Link>
+    <Link href="/">Назад</Link>
   </main>
 )
 
