@@ -35,7 +35,7 @@ const Index = () => (
       <Section id="mt" title="Медиатворчество" />
       <footer>
         Автор сайта →&nbsp;
-        <Link href="https://t.me/talentless_guy">v1rtl</Link>
+        <Link href="https://v1rtl.site">v1rtl</Link>
       </footer>
     </main>
   </div>
