@@ -2,7 +2,7 @@ $bg: rgba(30, 63, 22, 0.4);
 
 #media {
   #About {
-    background-image: url('../static/mt/4.jpg');
+    background-image: url('/mt/4.jpg');
   }
   #Header h1 {
     transition: 0.8s;
@@ -16,6 +16,6 @@ $bg: rgba(30, 63, 22, 0.4);
 }
 
 #mt {
-  background-image: url('../static/bgs/mt.svg');
+  background-image: url('/bgs/mt.svg');
   background-color: $bg;
 }

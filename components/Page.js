@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import Nav from './Nav'
-import SEO from './SEO'
-import '../styles/Page.scss'
 
 const Img = props => {
   const [fs, setFs] = useState(false)
@@ -43,7 +41,6 @@ const Img = props => {
 const Page = props => {
   return (
     <div>
-      <SEO />
       <Nav
         anchor={true}
         links={[

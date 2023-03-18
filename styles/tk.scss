@@ -3,17 +3,17 @@
     h1 {
       color: #ffffff;
     }
-    background-image: url('../static/tk/bg.svg');
+    background-image: url('/tk/bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   #About {
-    background-image: url('../static/tk/pravoslavie.jpg');
+    background-image: url('/tk/pravoslavie.jpg');
   }
 }
 
 #tk {
-  background-image: url('../static/bgs/tk.svg');
+  background-image: url('/bgs/tk.svg');
   background-color: rgba(29, 27, 131, 0.4);
 }

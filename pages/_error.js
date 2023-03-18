@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import '../styles/main.scss'
 
 const Error = ({ code }) => (
   <main className="Error">

@@ -1,15 +1,15 @@
 #rt {
-  background-image: url('../static/bgs/rt.gif');
+  background-image: url('/bgs/rt.gif');
   background-color: rgba(63, 22, 22, 0.4);
   background-size: cover;
 }
 
 #robot {
   #About {
-    background-image: url('../static/rt/1.jpg');
+    background-image: url('/rt/1.jpg');
   }
   #Header {
-    background-image: url('../static/bgs/rt.gif');
+    background-image: url('/bgs/rt.gif');
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
     color: white;

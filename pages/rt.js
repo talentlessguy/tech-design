@@ -1,8 +1,6 @@
 import React from 'react'
 import Page from '../components/Page'
 import img from '../util/img'
-import '../styles/main.scss'
-import '../styles/rt.scss'
 
 const images = [
   {

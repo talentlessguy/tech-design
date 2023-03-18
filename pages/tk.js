@@ -1,7 +1,5 @@
 import React from 'react'
 import Page from '../components/Page'
-import '../styles/main.scss'
-import '../styles/tk.scss'
 import img from '../util/img'
 
 const images = [

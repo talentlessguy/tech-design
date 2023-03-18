@@ -2,17 +2,10 @@ import React from 'react'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import Section from '../components/Section'
-import SEO from '../components/SEO'
 import Link from 'next/link'
-import '../styles/main.scss'
-import '../styles/td.scss'
-import '../styles/tk.scss'
-import '../styles/rt.scss'
-import '../styles/mt.scss'
 
-export default () => (
+const Index = () => (
   <div>
-    <SEO />
     <Nav
       anchor={true}
       links={[
@@ -49,3 +42,4 @@ export default () => (
     </main>
   </div>
 )
+export default Index

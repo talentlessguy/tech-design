@@ -1,1 +1,1 @@
-export default i => `../static/${i}`
+export default i => `/${i}`
